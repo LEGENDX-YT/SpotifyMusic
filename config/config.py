@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "83d3a0c3eec3babc7ad1d74049cd0ed1")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5797628793:AAGnX5xAEgDAIWdHtCnkC7k1cjG3flEwKH4")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Legend:legendxd@cluster0.y9z7ufo.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "6500")
@@ -66,7 +66,7 @@ GITHUB_REPO = getenv("GITHUB_REPO", "github.com/LEGEND-LX")
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "50"))
 
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/39e6c139d8983a0237ebc.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
+    "https://te.legra.ph/file/39e6c139d8983a0237ebc.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -122,7 +122,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg",
+    "https://te.legra.ph/file/39e6c139d8983a0237ebc.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -189,7 +189,7 @@ if UPSTREAM_REPO:
         sys.exit()
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/c44d2cf2ac0947d1548fc.jpg":
+    if PING_IMG_URL != "https://te.legra.ph/file/39e6c139d8983a0237ebc.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -214,7 +214,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://te.legra.ph/file/3e971024d28f7e3a07888.jpg":
+    if STATS_IMG_URL != "https://te.legra.ph/file/39e6c139d8983a0237ebc.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
