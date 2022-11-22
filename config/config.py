@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH", "83d3a0c3eec3babc7ad1d74049cd0ed1")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5797628793:AAGnX5xAEgDAIWdHtCnkC7k1cjG3flEwKH4")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "6500")
+    getenv("DURATION_LIMIT", "50")
 )
 
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1807")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001739380859"))
