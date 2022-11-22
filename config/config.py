@@ -15,11 +15,11 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5797628793:AAGnX5xAEgDAIWdHtCnkC7k1cjG3flEwKH4"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "50")
+    getenv("DURATION_LIMIT", "100000")
 )
 
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "110000")
 )
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001739380859"))
